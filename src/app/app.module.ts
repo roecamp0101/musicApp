@@ -5,9 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {routing} from './routing';
+import {ContentService} from './content.service'
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { AboutcomponentComponent } from './aboutcomponent/aboutcomponent.component';
 import { DownloadComponent } from './download/download.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { DownloadComponent } from './download/download.component';
     AppComponent,
     HomeComponentComponent,
     AboutcomponentComponent,
-    DownloadComponent
+    DownloadComponent,
+    PortfolioComponent
    
   ],
   imports: [
@@ -23,8 +26,10 @@ import { DownloadComponent } from './download/download.component';
     FormsModule,
     HttpModule,
     routing
+    
+    
   ],
-  providers: [],
+  providers: [ContentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
