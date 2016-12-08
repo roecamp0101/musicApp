@@ -326,7 +326,7 @@ h4 {
   width: 100%;
   font-weight: 100;
   margin: 0.8em auto;
-  color: #fff;
+ 
   line-height: 1.2em; }
 
 h5 {
@@ -1863,5 +1863,12 @@ div.old-workstack a:active {
     color: #fff;
 }
 
+.usercards{
+    height:460px;
+    margin: 0 auto 40px !important;
+    border-radius: 10px;
+    padding: 20px 10px !important;
+    transition: 1s;
+}
 
 /*# sourceMappingURL=ws.css.map */

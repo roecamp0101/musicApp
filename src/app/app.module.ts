@@ -10,6 +10,8 @@ import { HomeComponentComponent } from './home-component/home-component.componen
 import { AboutcomponentComponent } from './aboutcomponent/aboutcomponent.component';
 import { DownloadComponent } from './download/download.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { HighlightDirective } from './highlight.directive';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     HomeComponentComponent,
     AboutcomponentComponent,
     DownloadComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    HighlightDirective,
    
   ],
   imports: [
