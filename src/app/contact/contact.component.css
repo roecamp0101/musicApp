@@ -1,4 +1,4 @@
-input[type="text"], 
+input[type="text"], select, radio,
 textarea, 
 textarea.form-control {
     height: 50px;
