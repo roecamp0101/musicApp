@@ -2,7 +2,7 @@
 
 Music Download App
 
-![alt tag](https://s18.postimg.org/x2p77v889/3_music_app_designs_for_mobile.png)
+![alt tag](https://s28.postimg.org/eetw1hngt/3_music_app_designs_for_mobile.png)
 
 ## Prerequisites
 
