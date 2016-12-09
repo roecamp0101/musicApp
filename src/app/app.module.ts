@@ -11,6 +11,7 @@ import { AboutcomponentComponent } from './aboutcomponent/aboutcomponent.compone
 import { DownloadComponent } from './download/download.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HighlightDirective } from './highlight.directive';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -22,6 +23,7 @@ import { HighlightDirective } from './highlight.directive';
     DownloadComponent,
     PortfolioComponent,
     HighlightDirective,
+    ContactComponent,
    
   ],
   imports: [
