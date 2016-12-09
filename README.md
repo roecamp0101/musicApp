@@ -2,7 +2,7 @@
 
 Music Download App
 
-![alt tag](http://s33.postimg.org/hpkey98lr/i_Phone_4_Spotify_Premium.png)
+![alt tag](https://s18.postimg.org/x2p77v889/3_music_app_designs_for_mobile.png)
 
 ## Prerequisites
 
