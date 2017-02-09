@@ -14,16 +14,16 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a [routerLink]="['']"></a>
+                        <a [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"></a>
                     </li>
                     <li>
-                        <a [routerLink]="['about']">About</a>
+                        <a [routerLink]="['about']" routerLinkActive="active">About</a>
                     </li>
                     <li>
-                        <a [routerLink]="['download']">Download</a>
+                        <a [routerLink]="['download']"  routerLinkActive="active">Download</a>
                     </li>
                     <li>
-                        <a [routerLink]="['contact']">Contact</a>
+                        <a [routerLink]="['contact']" routerLinkActive="active">Contact</a>
                     </li>
                 </ul>
             </div>

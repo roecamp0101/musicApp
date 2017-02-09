@@ -23,7 +23,7 @@ import { ContactComponent } from './contact/contact.component';
     DownloadComponent,
     PortfolioComponent,
     HighlightDirective,
-    ContactComponent,
+    ContactComponent
    
   ],
   imports: [
