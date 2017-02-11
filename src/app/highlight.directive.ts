@@ -18,6 +18,7 @@ export class HighlightDirective {
         this.color = '#797979';
     }
      
+/*
     @HostBinding('style.backgroundColor') get setbackGround(){
         
         return this.backgroundColor;
@@ -30,7 +31,7 @@ export class HighlightDirective {
         
         return this.color;
         
-    } 
+    } */
 
 
 }

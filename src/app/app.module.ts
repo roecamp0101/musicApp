@@ -30,9 +30,7 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
-    
-    
+    routing    
   ],
   providers: [ContentService],
   bootstrap: [AppComponent]
